@@ -19,7 +19,7 @@ Included Plugins:
 Add the marketplace repository to Claude Code:
 
 ```text
-/plugin marketplace add git@github:iop/team-marketplace
+/plugin marketplace add git@github.com:iop/team-marketplace
 ```
 
 Install the `team-workflow` plugin:
