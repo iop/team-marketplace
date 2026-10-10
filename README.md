@@ -6,7 +6,7 @@ A demo Claude Code plugin marketplace for shared development workflows and activ
 
 ## Overview
 
-This marketplace distributes shared workflow tools, code quality checks, and automated activity logging across engineering teams.
+This marketplace distributes shared workflow tools and automated activity logging across engineering teams.
 
 Included Plugins:
 
