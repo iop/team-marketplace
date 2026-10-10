@@ -1,0 +1,23 @@
+{
+  "name": "team-marketplace",
+  "owner": {
+    "name": "Team",
+    "email": "ocheretn@yahoo.com",
+    "url": "https://github.com/iop/team-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "team-workflow",
+      "source": "./plugins/team-workflow",
+      "description": "Shared engineering workflow with activity logging.",
+      "version": "0.1.0",
+      "category": "development",
+      "tags": ["development", "quality", "workflow", "logging"],
+      "author": {
+        "name": "Team",
+        "email": "ocheretn@yahoo.com"
+      },
+      "strict": true
+    }
+  ]
+}

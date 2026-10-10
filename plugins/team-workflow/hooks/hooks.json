@@ -1,0 +1,16 @@
+{
+  "description": "Team workflow hooks",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/log-tool.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

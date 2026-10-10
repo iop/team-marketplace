@@ -1,0 +1,11 @@
+{
+  "name": "team-workflow",
+  "description": "demo-shared engineering workflow: development activity logging.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Team",
+    "email": "ocheretn@yahoo.com"
+  },
+  "keywords": ["development", "quality", "workflow", "logging"],
+  "license": "MIT"
+}
