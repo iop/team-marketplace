@@ -19,7 +19,7 @@ Included Plugins:
 Add the marketplace repository to Claude Code:
 
 ```text
-/plugin marketplace add github:iop/team-marketplace
+/plugin marketplace add git@github:iop/team-marketplace
 ```
 
 Install the `team-workflow` plugin:
@@ -38,6 +38,23 @@ cd team-marketplace
 claude --plugin-dir ./plugins/team-workflow
 ```
 
+###  Check install
+
+```bash
+/plugin marketplace list
+```
+
+### Usage
+
+1. **IMPORTANT:** Check the Troubleshooting section for information about hook permissions.
+
+2. Once installed, you can invoke logging or auditing tools via:
+
+```bash
+/team-workflow:audit-loghistory
+```
+
+
 ## Plugin Architecture
 
 ### `team-workflow`
@@ -52,7 +69,7 @@ plugins/team-workflow/
 │   └── audit-loghistory/
 │       └── SKILL.md
 ├── log-tool-YYYY-MM-DD.log
-└── YYYY-MM.tar.gz
+└── YYYY-WEEK.tar.gz
 ```
 
 ## Features & Capabilities
@@ -101,6 +118,10 @@ If you downloaded the repository as a raw ZIP archive or created hook scripts lo
 
 ```bash
 chmod +x `${CLAUDE_PLUGIN_ROOT}/team-workflow/hooks/log-tool.sh`
+
+example:
+cd ~/.claude/plugins/marketplaces/team-marketplace
+chmod +x plugins/team-workflow/hooks/log-tool.sh
 ```
 
 ## License
