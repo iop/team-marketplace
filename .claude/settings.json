@@ -1,8 +1,7 @@
 {
   "extraKnownMarketplaces": {
     "team-marketplace": {
-      "type": "github",
-      "repo": "iop/team-marketplace"
+      "source": "git@github.com:iop/team-marketplace.git"
     }
   }
 }
